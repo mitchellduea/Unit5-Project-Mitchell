@@ -1,18 +1,12 @@
 
 public interface Lockable{
-  private int key;
-public void(locked);
-public void(unlocked);
-if{
-    setkey=1
-    return locked;
-else
-return unlocked;
-  }
+  public void setKey(int 1);
+  public void lock(int 1);
+  public void unlock(int1 );
 
-  public boolean lock= true;
-
-  public boolean unlock= false;
+  
+public boolean locked();
+public boolean unlocked();
 
 public void setPriority()
 
