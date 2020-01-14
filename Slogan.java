@@ -10,6 +10,14 @@ public static int getCount(){
 
   return count++;
 }
+if locked= true{
+return locked;
+else
+return unlocked;
+}
+if locked=false {
+  return unlocked
+}
 public String toString() (return phrase);
 system.out.println ("Slogans created " + Slogan.getCount);
 
