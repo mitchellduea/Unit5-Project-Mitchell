@@ -1,19 +1,29 @@
-public class Num{
-  private int num;
-  private int getNum1(){
-    return numAmmount;
-  }
-
-private int setNum1(){
-  return numAmmount;
+public class Num implements Comparable{
+public static void main(String []args){
+private int value;
+public Num(int value){
+this.value = value;
 }
-public num toString(){
-  string Num1();
+public int getValue(){
+  return value;
 }
-public compareTo(num1, num){
-  num1== num;
+public void setValue(int value){
+  this.value = value;
+}
+public String to String(){
 
+  return " " + value;
+}
+public boolean equals(Num otherNum){
+  return this.value== otherNum.value;
+}
+
+public int compareTo(Object other){
+  Num otherNum = (Num) other;
+  return this.getValue() - otherNum.getValue()
+}
 
 
 }
+
 }
